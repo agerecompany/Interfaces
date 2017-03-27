@@ -1,6 +1,6 @@
 <?php
 
-namespace Agere\Interfaces;
+namespace Agere\Interfaces\Product;
 
 interface ProductInterface
 {
