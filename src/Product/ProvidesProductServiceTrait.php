@@ -15,6 +15,9 @@ trait ProvidesProductServiceTrait
         $this->productService = $productService;
     }
 
+    /**
+     * @return ProductServiceInterface
+     */
     public function getProductService()
     {
         return $this->productService;

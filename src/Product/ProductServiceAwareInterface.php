@@ -12,5 +12,13 @@ namespace Agere\Interfaces\Product;
  */
 interface ProductServiceAwareInterface
 {
+    /**
+     * @param ProductServiceInterface $productService
+     */
+    public function setProductService(ProductServiceInterface $productService);
 
+    /**
+     * @return ProductServiceInterface
+     */
+    public function getProductService();
 }
