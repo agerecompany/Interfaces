@@ -2,6 +2,14 @@
 
 namespace Agere\Interfaces\Contract;
 
+/**
+ * Interface ContractServiceAwareInterface
+ *
+ * The Interface that describes the insertion an entity of ContractServiceInterface (f.e. ContractService)
+ * into another service or class.
+ *
+ * @package Agere\Interfaces\Contract
+ */
 interface ContractServiceAwareInterface
 {
     /**
